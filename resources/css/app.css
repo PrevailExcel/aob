@@ -1,0 +1,125 @@
+.web-name {
+    color: #270B09;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16.8px;
+}
+
+.reader {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #333333;
+
+}
+
+.search {
+    height: 48px !important;
+    padding: 13px 14px 13px 14px !important;
+    gap: 10px !important;
+    border-radius: 10px !important;
+    background: #3333331A !important;
+}
+
+.search::placeholder {
+    font-family: Lato !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 16.8px !important;
+}
+
+.search-button {
+    width: 51px;
+    height: 48px;
+    border-radius: 8px !important;
+    background: #270B09;
+}
+
+.bg-brown {
+    background: #270B09A6 !important;
+    height: 122px;
+    border-radius: 15px;
+}
+
+.quote {
+    max-width: 297px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.4px;
+    color: white;
+}
+
+.avail {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+}
+
+.book-card {
+    min-width: 120px;
+    min-height: 155px;
+}
+
+.book-title {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14.4px;
+    color: #333333;
+}
+
+.book-author {
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 9.6px;
+    color: #333333CC;
+}
+
+.full-bar {
+    height: 3px !important;
+    border-radius: 5px !important;
+    color: #3333331A !important;
+}
+
+.bg-deep-brown{
+    background: #270B09 !important;
+}
+
+/* Container for the entire slider */
+.slider-container {
+    position: relative;
+    /* width: 75%; Adjust this to control how much of the 4th item is visible */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    margin: 0 auto;
+  }
+  
+  /* The slider itself - arrange items horizontally */
+  .slider {
+    display: flex;
+    gap: 10px; /* Add space between items */
+  }
+  
+  /* Each item inside the slider */
+  .slider-item {
+    flex: 0 0 30%; /* 30% width for each item to show 3 full items and part of the 4th */
+    box-sizing: border-box;
+  }
+  
+  /* Optional: Customize scrollbars for better aesthetics */
+  .slider-container::-webkit-scrollbar {
+    height: 8px; /* Make the scrollbar smaller */
+  }
+  
+  .slider-container::-webkit-scrollbar-thumb {
+    background-color: #888; /* Customize the color */
+  }
+  
+  .slider-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Customize the color when hovered */
+  }
+  
