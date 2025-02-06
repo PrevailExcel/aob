@@ -17,7 +17,9 @@ echo "Running migrations..."
 php artisan migrate --force
 
 echo "Installing Node.js and building Vue frontend..."
-apt-get update && apt-get install -y nodejs npm
+sudo apt update && sudo apt install -y nodejs npm
+apk add --no-cache nodejs npm
+
 npm install
 npm run build
 
